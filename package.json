@@ -1,0 +1,31 @@
+{
+  "name": "satoshistreasure-bot",
+  "version": "1.0.0",
+  "description": "Bot to help work on satoshis treasure",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "body-parser": "^1.18.3",
+    "discord.js": "^11.4.2",
+    "dotenv": "^7.0.0",
+    "elasticsearch": "^15.4.1",
+    "erlpack": "github:discordapp/erlpack",
+    "express": "^4.16.4",
+    "node-pg-migrate": "^3.18.1",
+    "pg": "^7.10.0",
+    "table": "^5.2.3",
+    "twilio": "^3.30.1",
+    "zlib-sync": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node-pg-migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@johncantrell97.github.com:johncantrell97/satoshistreasure-bot.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
